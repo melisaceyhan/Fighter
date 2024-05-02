@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731706, g: 0.13414669, b: 0.12107805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -592,7 +592,7 @@ GameObject:
   - component: {fileID: 790783046}
   - component: {fileID: 790783045}
   - component: {fileID: 790783044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,31 +1109,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1268539486}
-  - component: {fileID: 1268539485}
   - component: {fileID: 1268539487}
+  - component: {fileID: 1268539488}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1268539485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268539484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4f73142a13080498bdb2259a442291, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPositions:
-  - {fileID: 1836435822}
-  - {fileID: 1247651103}
-  maxTurnTimer: 10
+  m_IsActive: 1
 --- !u!4 &1268539486
 Transform:
   m_ObjectHideFlags: 0
@@ -1171,6 +1155,18 @@ MonoBehaviour:
   - {fileID: 1137917083}
   - {fileID: 1644803002}
   winIndicator: {fileID: 146484, guid: 6f0762004ec8ab8428149fcc5c9966d8, type: 3}
+--- !u!114 &1268539488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268539484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0979a4b59e36f459f3b8da1cb1bdef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1295503829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,7 +1202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: -15.300003}
+  m_AnchoredPosition: {x: -0.000030517578, y: -15.299881}
   m_SizeDelta: {x: -140.5, y: -342.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1295503831

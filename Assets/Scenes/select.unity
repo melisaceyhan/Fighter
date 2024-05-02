@@ -1000,7 +1000,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1189308595}
-  - component: {fileID: 1189308594}
+  - component: {fileID: 1189308596}
   m_Layer: 0
   m_Name: Select Screen Manager
   m_TagString: Untagged
@@ -1008,43 +1008,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1189308594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189308593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b4791f37e5dab94d922fd47619ad658, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfPlayers: 2
-  plInterfaces:
-  - {activePotrait: {fileID: 0}, previewPotrait: {fileID: 0}, selector: {fileID: 899850257}, charVisPos: {fileID: 676711594}, createdCharacter: {fileID: 0}, activeX: 0, activeY: 0, hitInputOnce: 0, timerToReset: 0, playerBase:
-      playerId: 
-      inputId: 
-      playerType: 0
-      hasCharacter: 0
-      playerPrefab: {fileID: 0}
-      playerStates: {fileID: 0}
-      score: 0
-}
-  - {activePotrait: {fileID: 0}, previewPotrait: {fileID: 0}, selector: {fileID: 2111917761}, charVisPos: {fileID: 1047290647}, createdCharacter: {fileID: 0}, activeX: 1, activeY: 2, hitInputOnce: 0, timerToReset: 0, playerBase:
-      playerId: 
-      inputId: 
-      playerType: 0
-      hasCharacter: 0
-      playerPrefab: {fileID: 0}
-      playerStates: {fileID: 0}
-      score: 0
-}
-  potraitPrefabs: []
-  maxX: 2
-  maxY: 3
-  potraitCanvas: {fileID: 1661704812}
-  bothPlayersSelected: 0
 --- !u!4 &1189308595
 Transform:
   m_ObjectHideFlags: 0
@@ -1060,6 +1023,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1189308596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189308593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5d158ff20a1ce4bbab72cfab8543df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1263726207
 PrefabInstance:
   m_ObjectHideFlags: 0
