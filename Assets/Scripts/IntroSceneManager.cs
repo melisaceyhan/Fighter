@@ -102,6 +102,7 @@ public class IntroSceneManager : MonoBehaviour
         HandleSelectionOption();
         yield return new WaitForSeconds(0.6f);
 
-        MySceneManager.GetInstance().RequestLevelLoad(MySceneManager.SceneType.main, "select");
+        //MySceneManager.GetInstance().RequestLevelLoad(SceneType.main, "select");
+        SceneManager.LoadSceneAsync("select", LoadSceneMode.Single);
     }
 }
